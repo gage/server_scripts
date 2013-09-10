@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ######### Install mongos
 #  NOTE apply 10gen.pp first
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
