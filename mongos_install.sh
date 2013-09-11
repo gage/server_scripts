@@ -37,7 +37,7 @@ cat>/etc/mongos.conf <<-EOF
 	#mongos config file
 	 
 	#config servers
-	configdb=10.0.0.44:27019,10.0.0.45:27019,10.0.0.46:27019
+	configdb=sl-mongodb-config-1:27019,sl-mongodb-config-2:27019,sl-mongodb-config-3:27019
 	 
 	#where to log
 	logpath=/var/log/mongodb/mongos.log
