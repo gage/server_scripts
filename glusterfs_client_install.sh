@@ -1,6 +1,7 @@
 #!/bin/bash
 
-sudo add-apt-repository ppa:semiosis/ubuntu-glusterfs-3.4
+sudo add-apt-repository ppa:semiosis/ubuntu-glusterfs-3.3
+sudo apt-get update
 sudo apt-get remove glusterfs-client
 sudo apt-get autoremove
 sudo apt-get install glusterfs-client
